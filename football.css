@@ -1,0 +1,60 @@
+/* font add */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* header style */
+header{
+    width: 1340px;
+    height: 670px;
+    background: linear-gradient(rgb(4, 4, 56), rgb(5, 50, 68));
+    border: mediumslateblue 5px solid;
+  
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 156px;
+    padding-right: 140.99px;
+    padding-top: 42px ;
+    color: oldlace;
+
+}
+.menu-items{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    
+}
+.login{
+    color: oldlace;
+    background:linear-gradient(rgb(3, 8, 56), rgb(19, 94, 124));
+    border:2px solid skyblue;
+    border-radius: 15px;
+    padding: 10px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.login:hover{
+    color: #255784;
+    background-color:  navy;
+    box-shadow: 0 0 10px #07fa07,0 0 40px #126b06, 0 0 80px #08b625;
+    transition-delay: .5s;
+}
+.uefa{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.uefa-title{
+    color: white;
+    padding-left: 156px;
+   padding-top: 150px;
+    padding-bottom: 240;
+
+}
+.banner img{
+    width: 556px;
+    height: 438px;
+
+    
+   
+}
