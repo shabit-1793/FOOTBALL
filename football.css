@@ -2,6 +2,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+hr{
+    border: white 3px solid;
+}
 /* header style */
 header{
     width: 1340px;
@@ -58,3 +61,23 @@ header{
     
    
 }
+/* players detail */
+.container{
+
+}
+.container-title{
+     color: rgb(3, 35, 97);
+}
+.players{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 30px;
+  
+}
+.player img{
+    height: 256px;
+    width: 300px;
+}
+
+
+
