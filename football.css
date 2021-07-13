@@ -30,7 +30,7 @@ header{
 }
 .login{
     color: oldlace;
-    background:linear-gradient(rgb(3, 8, 56), rgb(19, 94, 124));
+    background:linear-gradient(rgb(3, 8, 56), rgb(4, 22, 29));
     border:2px solid skyblue;
     border-radius: 15px;
     padding: 10px;
@@ -40,8 +40,8 @@ header{
 .login:hover{
     color: #255784;
     background-color:  navy;
-    box-shadow: 0 0 10px #07fa07,0 0 40px #126b06, 0 0 80px #08b625;
-    transition-delay: .5s;
+    box-shadow: 0 0 10px #033503,0 0 40px #126b06, 0 0 80px #073f10;
+    cursor: cell;
 }
 .uefa{
     display: grid;
@@ -63,21 +63,50 @@ header{
 }
 /* players detail */
 .container{
-
+    background:linear-gradient(rgb(3, 15, 75), rgb(5, 54, 68));
+    border:2px solid rgba(236, 238, 240, 0.459);
+    padding: 20px;
+    
 }
 .container-title{
-     color: rgb(3, 35, 97);
+   color: rgb(235, 240, 247);
+   padding-left: 20px;
+
+
 }
 .players{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
   
 }
 .player img{
     height: 256px;
     width: 300px;
 }
+.player{
+    color: cornsilk;
+   
+    border: rgb(236, 236, 236) 5px solid ;
+   
+    border-radius: 10px;
+   
+    height: 474px;
+    width: 300px;
+    padding:15px ;
+    margin: 10px;
+    margin-left: 40px;
+}
+.player:hover{
+    color: #255784;
+    background-color:  navy;
+    box-shadow: 0 0 10px #07fa07,0 0 40px #126b06, 0 0 80px #08b625;
+    cursor: cell;
+   
+  
 
+}
 
 
