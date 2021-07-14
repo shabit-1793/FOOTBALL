@@ -70,7 +70,7 @@ header{
 }
 .container-title{
    color: rgb(235, 240, 247);
-   padding-left: 20px;
+   padding-left: 50px;
 
 
 }
@@ -92,7 +92,7 @@ header{
     border: rgb(236, 236, 236) 5px solid ;
    
     border-radius: 10px;
-   
+    box-shadow: 4px 4px 10px lightblue;
     height: 474px;
     width: 300px;
     padding:15px ;
@@ -108,5 +108,42 @@ header{
   
 
 }
+/* highlights  */
+.container{
+    background:linear-gradient(rgb(3, 15, 75), rgb(5, 54, 68));
+    border:2px solid rgba(236, 238, 240, 0.459);
+    padding: 20px;
+}
+.highlights{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    color: whitesmoke;
+
+}
+.highlights-title{
+    width: 466px;
+    width: 309px;
+    margin-left: 182px;
+}
+.fas{
+    background-color: rgb(3, 32, 43);
+    border: 2px solid rgb(188, 188, 202);
+    border-radius: 15px;
+    color:white;
+}
+.fas:hover{
+  
+
+}   
+.banners img {
+    width: 567px;
+    height: 427px;
+}
+.banners img:hover{
+    box-shadow: 0 0 10px #fae207,0 0 40px #6b0644, 0 0 80px #b60882;
+    cursor: cell;
+}
+
 
 
