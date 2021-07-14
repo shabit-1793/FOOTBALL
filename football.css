@@ -102,7 +102,7 @@ header{
 .player:hover{
     color: #255784;
     background-color:  navy;
-    box-shadow: 0 0 10px #07fa07,0 0 40px #126b06, 0 0 80px #08b625;
+    box-shadow: 0 0 40px #07fa07,0 0 40px #126b06, 0 0 80px #08b625;
     cursor: cell;
    
   
@@ -111,8 +111,8 @@ header{
 /* highlights  */
 .container{
     background:linear-gradient(rgb(3, 15, 75), rgb(5, 54, 68));
-    border:2px solid rgba(236, 238, 240, 0.459);
-    padding: 20px;
+   
+  
 }
 .highlights{
     display: grid;
@@ -133,7 +133,8 @@ header{
     color:white;
 }
 .fas:hover{
-  
+    box-shadow: 0 0 20px #fae207,0 0 40px #6b0644, 0 0 80px #b60882;
+    cursor: cell;
 
 }   
 .banners img {
@@ -141,8 +142,42 @@ header{
     height: 427px;
 }
 .banners img:hover{
-    box-shadow: 0 0 10px #fae207,0 0 40px #6b0644, 0 0 80px #b60882;
+    box-shadow: 0 0 40px #fae207,0 0 40px #6b0644, 0 0 80px #b60882;
     cursor: cell;
+}
+/* awards style  */
+.awards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+}
+.award{
+    border: 4px solid rgb(252, 247, 247);
+    border-radius: 15px;
+    box-shadow: 0 0 40px white;
+    height: 550px;
+    width: 410px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.award:hover{
+    box-shadow: 0 0 40px #fae207,0 0 40px #6b0644, 0 0 80px #b60882;
+    cursor: cell; 
+}
+.top{
+    color: white;
+    margin-left: 50px;
+  
+}
+.pic img{
+    width: 400px;
+    height: 346px;
+}
+.award-info{
+    color: white;
+    font-size: large;
 }
 
 
