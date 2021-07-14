@@ -111,6 +111,7 @@ header{
 /* highlights  */
 .container{
     background:linear-gradient(rgb(3, 15, 75), rgb(5, 54, 68));
+    pading-right: 130px;
    
   
 }
@@ -161,6 +162,7 @@ header{
     width: 410px;
     padding-left: 15px;
     padding-top: 10px;
+    margin-top: 10px;
 }
 .award:hover{
     box-shadow: 0 0 40px #fae207,0 0 40px #6b0644, 0 0 80px #b60882;
@@ -178,6 +180,42 @@ header{
 .award-info{
     color: white;
     font-size: large;
+}
+/* host cities style */
+.host{
+    color: white;
+    font-size: large;
+    margin-left: 20px;
+}
+.host-cities{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+   
+}
+.city{
+    border: white 4px solid ;
+    border-radius: 15px;
+    box-shadow: 0 0 40px white;
+    height: 400px;
+    width: 300px;
+    padding-left: 0px;
+    margin: 10px;
+    margin-left:60px;
+}
+.city:hover{
+    box-shadow: 0 0 40px #fdc409,0 0 40px #06196b, 0 0 80px #b60882;
+    cursor: cell; 
+}
+.venu-pik img{
+    width:300px ;
+    height: 256px;
+}
+.venu-info{
+    text-align: center;
+    color: white;
+    height: 50px;
+    width: 300px;
+  
 }
 
 
