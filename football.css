@@ -217,6 +217,15 @@ header{
     width: 300px;
   
 }
+/* footer style */
+.foot{
+    text-align: center;
+}
+.footer-logo img{
+    width: 438.10px;
+    height: 110px;
+    margin-top: 50px;
+}
 
 
 
